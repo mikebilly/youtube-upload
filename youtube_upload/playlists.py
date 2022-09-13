@@ -1,6 +1,7 @@
 import locale
 
-from .lib import debug
+#from .lib import debug
+from lib import debug
 
 def get_playlist(youtube, title):
     """Return users's playlist ID by title (None if not found)"""
