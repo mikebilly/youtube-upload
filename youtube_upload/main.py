@@ -27,11 +27,17 @@ import oauth2client
 
 from oauth2client import file
 
-from . import auth
-from . import upload_video
-from . import categories
-from . import lib
-from . import playlists
+#from . import auth
+#from . import upload_video
+#from . import categories
+#from . import lib
+#from . import playlists
+
+import auth
+import upload_video
+import categories
+import lib
+import playlists
 
 # http://code.google.com/p/python-progressbar (>= 2.3)
 try:
